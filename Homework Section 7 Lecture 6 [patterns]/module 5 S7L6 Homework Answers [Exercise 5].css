@@ -1,0 +1,15 @@
+circle{
+    fill:#6FFF22;
+    stroke:#8600B4;
+    stroke-width: 10;
+}
+
+.one {
+    fill:#6FFF22;
+    stroke:#8600B4;
+    stroke-width: 10;
+}
+
+#with_pattern{
+    fill:url(#pattern_one);
+}

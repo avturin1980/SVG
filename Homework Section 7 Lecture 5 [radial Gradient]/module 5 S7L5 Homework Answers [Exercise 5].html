@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+
+<html>
+
+    <head>
+        <title>module 5 (Section 7 Lecture 5 Exercise 5 [Answers])</title>
+        <style type="text/css">
+          .st0{
+              fill:url(#first);
+          }
+          .st1{
+              fill:url(#second);
+          }
+        </style>
+    </head>
+
+
+<body>
+
+  <svg width="600" height="600" viewBox="0 0 1000 1000">
+    <radialGradient id="first" gradientUnits="boundingBox" spreadMethod="reflect" cx=".5" cy=".5" r=".5" fx=".6" fy=".5" fr=".2">
+      <stop  offset="0" stop-color="#92278F"/>
+      <stop  offset="1" stop-color="#F26522"/>
+    </radialGradient>
+
+    <rect x="0" y="0" class="st0" width="1000" height="1000"/>
+    <circle cx="500" cy="500" r="400" fill="none" stroke="black"/>
+    <circle cx="600" cy="500" r="200" fill="none" stroke="black"/>
+  </svg>
+
+  <svg width="600" height="600" viewBox="0 0 1000 1000">
+    <radialGradient id="second" gradientUnits="boundingBox" spreadMethod="reflect" gradientTransform="rotate(180, .6, .5) " cx=".5" cy=".5" r=".5" fx=".6" fy=".5" fr=".2">
+      <stop  offset="0" stop-color="#92278F"/>
+      <stop  offset="1" stop-color="#F26522"/>
+    </radialGradient>
+
+    <rect class="st1" x="0" y="0" width="1000" height="1000"/>
+    <circle cx="500" cy="500" r="400" fill="none" stroke="black"/>
+    <circle cx="600" cy="500" r="200" fill="none" stroke="black"/>
+  </svg>
+
+</body>
+</html>
