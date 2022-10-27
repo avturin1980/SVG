@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+
+<html>
+
+    <head>
+        <title>module 4 (Section 7 Lecture 3 Exercise 4 [Answers])</title>
+    </head>
+
+
+<body>
+
+  <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="600">
+    <defs>
+      <linearGradient id="firstGradient" x1="0" y1="0.5" x2="1" y2="0.5">
+        <stop offset="0%" stop-color="#FFF704"></stop>
+        <stop offset="25%" stop-color="#E8890C"></stop>
+        <stop offset="50%" stop-color="#FF0000"></stop>
+        <stop offset="75%" stop-color="#760CE8"></stop>
+        <stop offset="100%" stop-color="#0D95FF"></stop>
+      </linearGradient>
+      <linearGradient id="secondGradient" href="#firstGradient" x1="0" y1="0" x2="1" y2="1"></linearGradient>
+      <linearGradient id="thirdGradient" href="#firstGradient" x1="0.5" y1="0" x2="0.5" y2="1"></linearGradient>
+      <linearGradient id="fourthGradient" href="#firstGradient" x1="1" y1="0" x2="0" y2="1"></linearGradient>
+      <linearGradient id="fifthGradient" href="#firstGradient" x1="1" y1="0.5" x2="0" y2="0.5"></linearGradient>
+      <linearGradient id="sixthGradient" href="#firstGradient" x1="1" y1="1" x2="0" y2="0"></linearGradient>
+      <linearGradient id="seventhGradient" href="#firstGradient" x1="0.5" y1="1" x2="0.5" y2="0"></linearGradient>
+      <linearGradient id="eighthGradient" href="#firstGradient" x1="0" y1="1" x2="1" y2="0"></linearGradient>
+      <linearGradient id="ninthGradient" href="#firstGradient" x1="0" y1="0" x2="1" y2="0"></linearGradient>
+      <circle id="circle" cx="100" cy="100" r="50"></circle>
+    </defs>
+
+    <use href="#circle" fill="url(#firstGradient)"></use>
+    <use href="#circle" x="150" fill="url(#secondGradient)"></use>
+    <use href="#circle" x="300" fill="url(#thirdGradient)"></use>
+    <use href="#circle" y="150" fill="url(#fourthGradient)"></use>
+    <use href="#circle" x="150" y="150" fill="url(#fifthGradient)"></use>
+    <use href="#circle" x="300" y="150" fill="url(#sixthGradient)"></use>
+    <use href="#circle" y="300" fill="url(#seventhGradient)"></use>
+    <use href="#circle" x="150" y="300" fill="url(#eighthGradient)"></use>
+    <use href="#circle" x="300" y="300" fill="url(#ninthGradient)"></use>
+  </svg>
+
+  </body>
+</html>

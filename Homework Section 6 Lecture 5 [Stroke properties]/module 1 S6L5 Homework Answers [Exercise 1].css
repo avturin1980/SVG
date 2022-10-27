@@ -1,0 +1,17 @@
+svg{
+    margin:50px;
+}
+
+.st0{
+    fill:none;
+    stroke:#6558A0;
+    stroke-width:10;
+    stroke-dasharray: 30 20;
+}
+
+.st1{
+    fill:none;
+    stroke:#6558A0;
+    stroke-width:10;
+    stroke-dasharray: 30px 20px 30px 20px 30px 20px;
+}

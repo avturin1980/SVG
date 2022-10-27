@@ -1,0 +1,11 @@
+svg{
+    margin:50px;
+    border:1px solid violet;
+}
+.st0{
+    fill:none;
+    stroke:#9E005D;
+    stroke-width:10;
+    stroke-linejoin: miter;
+    stroke-miterlimit:5;
+}

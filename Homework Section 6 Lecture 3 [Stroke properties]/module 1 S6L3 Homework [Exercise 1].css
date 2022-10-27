@@ -1,0 +1,14 @@
+.st0{
+    fill:#2B3990;
+    stroke:#662D91;
+}
+
+.st1{
+    fill:#2B3990;
+    stroke:#662D91;
+}
+
+.pnt_order__reversed{
+    paint-order: fill stroke markers;
+}
+

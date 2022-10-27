@@ -1,0 +1,24 @@
+svg{
+    margin:10px;
+}
+
+.st0{
+    fill:none;
+    stroke:#9E1F63;
+    stroke-width:40;
+    stroke-linecap:butt;
+}
+
+.st1{
+    fill:none;
+    stroke:#F26522;
+    stroke-width:40;
+    stroke-linecap:round;
+}
+
+.st2{
+    fill:none;
+    stroke:#262262;
+    stroke-width:40;
+    stroke-linecap:square;
+}

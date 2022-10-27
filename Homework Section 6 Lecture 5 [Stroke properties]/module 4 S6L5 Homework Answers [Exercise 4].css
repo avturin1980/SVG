@@ -1,0 +1,50 @@
+@keyframes first {
+    0%{
+        stroke-dashoffset: 0px; 
+    }
+    100%{
+        stroke-dashoffset: -2400px;
+    }
+}
+@keyframes second {
+    0%{
+        stroke-dashoffset: -30px; 
+    }
+    100%{
+        stroke-dashoffset: -2430px;
+    }
+}
+
+.st0{
+    fill:none;
+    stroke:#F26522;
+    stroke-width:20;
+    stroke-dasharray: 30px 30px;
+    animation-name: first;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.st1{
+    fill:none;
+    stroke: black;
+    stroke-width:20;
+    stroke-dasharray: 30px 2370px;
+    animation-name: second;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  
+}
+
+.st2{
+    fill:none;
+    stroke:#84151F;
+    stroke-width:20;
+    stroke-dasharray: 30px 30px;
+    animation-name: second;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+

@@ -1,0 +1,16 @@
+.st1{
+    fill:#F26522;
+    stroke:#662D91;
+    stroke-width:20;
+    stroke-miterlimit:10;
+}
+.st2{
+    fill:#F26522;
+    stroke:#662D91;
+    stroke-width:20;
+    stroke-miterlimit:10;
+}
+
+.pnt_order__reversed{
+    paint-order: fill stroke markers;
+}

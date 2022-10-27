@@ -1,0 +1,20 @@
+.st0{
+    fill:#2B3990;
+    fill-opacity: 1;
+    stroke:#662D91;
+    stroke-opacity: 1;
+    stroke-width:20;
+}
+
+.st1{
+    fill:#2B3990;
+    fill-opacity: .75;
+    stroke:#662D91;
+    stroke-opacity: .5;
+    stroke-width:20;
+}
+
+.pnt_order__reversed{
+    paint-order: markers stroke fill;
+}
+

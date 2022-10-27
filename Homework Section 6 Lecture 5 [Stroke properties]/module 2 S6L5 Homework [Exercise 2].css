@@ -1,0 +1,47 @@
+@keyframes ten-percents{
+    0%{
+        stroke-dasharray: 0px 0px;
+    }
+    100%{
+        stroke-dasharray: 0px 0px;
+    }
+}
+
+
+@keyframes thirty-percents{
+    0%{
+        stroke-dasharray: 0px 0px;
+    }
+    100%{
+        stroke-dasharray: 0px 0px;
+    }
+}
+
+
+@keyframes fifty-percents{
+    0%{
+        stroke-dasharray: 0px 0px;
+    }
+    100%{
+        stroke-dasharray: 0px 0px;
+    }
+}
+@keyframes one-hundred-percents{
+    0%{
+        stroke-dasharray: 0px 0px;
+    }
+    100%{
+        stroke-dasharray: 0px 0px;
+    }
+}
+
+.st0{
+    fill:none;
+    stroke:#3C5F42;
+    stroke-width:30;
+    transform:rotate(-90deg);
+    transform-origin: 400px 400px;
+    animation-name: one-hundred-percents;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
