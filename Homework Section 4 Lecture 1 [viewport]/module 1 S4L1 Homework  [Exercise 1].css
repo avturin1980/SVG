@@ -1,0 +1,28 @@
+*{
+    padding:0;
+    margin:0
+}
+
+a{
+    text-decoration:none
+}
+
+.index__container{
+    height:100vh
+}
+
+.one{
+    min-height:200px;
+    height:200px;
+    width:650px;
+    background-color:#639;
+    margin:50px
+}
+circle{
+    fill:#00690C;
+}
+
+/* You should start to write here*/
+#outermost{
+    border:2px dashed darkcyan;
+}

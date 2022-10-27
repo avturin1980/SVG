@@ -1,0 +1,42 @@
+rect.important{
+    fill:cadetblue !important;
+}
+
+rect#ids{
+    fill: blueviolet;
+}
+
+rect.third {
+    fill:violet;
+}
+
+svg > rect {
+    fill:yellow;
+}
+
+
+rect {
+    fill: rosybrown;
+}
+
+rect {
+    fill:blanchedalmond;
+}
+
+rect {
+    fill:green;
+}
+
+*{
+    padding:0;
+    margin:0;
+    fill:red;
+}
+
+a{
+    text-decoration:none;
+}
+
+.index__container{
+    height:100vh;
+}
